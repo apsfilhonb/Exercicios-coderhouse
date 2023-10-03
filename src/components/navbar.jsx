@@ -2,10 +2,7 @@ import Carrinho from './Cart';
 import Menu from './MenuItens';
 import logo from '../assets/logo.png';
 
-
-function Navbar() {
-
-
+function NavBar() {
 
     return (
         <>
@@ -20,4 +17,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default NavBar;

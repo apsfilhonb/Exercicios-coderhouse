@@ -1,4 +1,3 @@
-// import React from "react";
 
 function ItensListCart(props) {
 
@@ -8,7 +7,10 @@ function ItensListCart(props) {
         <div>
             <p>Produto: {props.produto}</p>
             <p>Preço: {props.preco}</p>
+            <p>Quantidade: {props.quantidade}</p>
+            <p>Total: {props.total}</p>
         </div>
+
     )
 
 }

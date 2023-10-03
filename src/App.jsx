@@ -1,12 +1,17 @@
 import './index.css'
-import Navbar from './components/navbar'
+import CardItem from './components/CardItem'
+import NavBar from './components/NavBar'
+
 
 function App() {
 
   return (
     <>
       <div>
-        <Navbar />
+        <NavBar />
+      </div>
+      <div>
+        <CardItem />
       </div>
 
     </>
