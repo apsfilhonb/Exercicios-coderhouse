@@ -47,8 +47,8 @@ function ItemList() {
                         <div className="bg-white w-1/2 h-1/2 flex flex-col justify-center items-center">
                             <img className="w-[15rem]" src={SelectedItems.url_imagem} />
                             <h1 className="flex justify-center font-bold">{SelectedItems.nome}</h1>
-                            <p className="flex justify-center">{SelectedItems.descricao}</p>
-                            <p className="flex justify-center">R$ {SelectedItems.preco.toLocaleString('pt-BR')}</p>
+                            <p className="flex justify-center ">{SelectedItems.descricao}</p>
+                            <p className="flex justify-center font-bold">R$ {SelectedItems.preco.toLocaleString('pt-BR')}</p>
                             <ItemCount />
                             <button className=" border-2 mt-1 bg-red-400 shadow-md rounded-lg" onClick={handleClose}>Fechar</button>
                         </div>
